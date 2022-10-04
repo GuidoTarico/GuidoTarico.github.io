@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* ---- index.html ----- */
+.body {
+    background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.6)), url(../img/X-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+
+.bienvenida {
+    color: #e0e0e0;
+    font-size: 3em;
+    text-shadow: 0 0 4px #e0e0e0;
+}
+
+.btn__conteiner {
+    padding: 4rem;
+}
+
+button {
+    background-color: #db2424;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 6px 12px #000;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transform: scale(0.9);
+
+}
+
+
+button:hover {
+    background-color: #c0c0c0;
+    color: #db2424;
+    box-shadow: 0 6px 12px #db2424;
+    transition: all 280ms;
+    transform: scale(1);
+}
+
+/* ---- user.html ----- */
+body{ 
+    background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.6)),
+    url(../img/X-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header__img{
+    width: 150px;
+}
+.header__titulo{
+    color:#c0c0c0;
+    padding: 0 1rem;
+}
+/* -----navbar------ */
+.bg-mio{
+    background-color: #c0c0c0;
+}
+.nav__logo{
+    width: 80px;
+}
+.container-mio{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* -----main------ */
+.mansion{
+    color: #e0e0e0;
+    padding: 1rem;
+
+}
+.mansion__titulo{
+    text-align: center;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+.mansion p{
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 1,2em;
+    text-align: justify;
+}
+main{
+    display: inline-block;
+    width: 70%;
+}
+/* -----aside/extras/tabla/footer---- */
+aside{
+    background-image: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 06)), url(../img/xmenlogo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    width:30%;
+    min-height: 40vh;
+    right: 10px;
+    top: 420px;
+    font-size: x-large;
+    text-align: center;
+    padding: 3rem 0;
+    color: #c0c0c0;
+}
+.extra{
+    position: absolute;
+    width: 30%;
+    min-height: 40vh;
+    right: 10px;
+    top: 700px;
+
+}
+.extra2 {
+    position: absolute;
+    width: 30%;
+    min-height: 40vh;
+    right: 10px;
+    top: 915px;
+}
+footer{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #c0c0c09c;
+}
+.mapa{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem;
+}
+.tabla{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        color: #c0c0c0;       
+}
+
